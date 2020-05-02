@@ -6,7 +6,7 @@ In this notebook, we're going to go through an example machine learning project 
 How well can we predict the future sale price of a bulldozer, given its characteristics and previous examples of how much similar bulldozers have been sold for?
 
 ## 2. Data
-The data is downloaded from the Kaggle Bluebook for Bulldozers competition: https://www.kaggle.com/c/bluebook-for-bulldozers/data
+The data is downloaded from the Kaggle Bluebook for Bulldozers competition: https://www.kaggle.com/c/bluebook-for-bulldozers/data. The files are too larget to be uploaded directly on Github.
 
 There are 3 main datasets:
 
