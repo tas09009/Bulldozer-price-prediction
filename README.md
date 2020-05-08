@@ -29,13 +29,16 @@ Kaggle provides a data dictionary detailing all of the features of the dataset. 
 --------------
 ## File names
 
+**bulldozer_price_regression_model.ipynb:** Final copy of the project completed in Google Colab. Click here for original notebook: https://colab.research.google.com/drive/1NGMwdSJOaG7DvZULGDZDTdIf2ll3G1Gs?usp=sharing
 
-### Differences in code
-* 20,000 vs all 400,000+ rows
-* null values didn't include 'auctioneerID'. Once less column at the end 
-* valid data set only goes up to 2011. Data split from before 2011 and after. opposed to 2012 in example
-* max_samples = 500
-* preprocessing data to prepare for test data Ln [83]:
-    * 'MachineHoursCurrentMeter_is_missing' from our train set
-    * 'auctioneerID_is_missing' from their test set (Daniel's notebook)
-    * manually adjusted df (instead of df_test) to have auctioneerID_is_missing column. Need to go back to see why this model was missing this feature in the first place. Should have been caught during the preprocessing phase.
+**end-to-end-bulldozer-price-regression.ipynb:** This project was originally done in Jupyter notebook but with a smaller sample set due to memory issues. The project was redone on Colab with the full dataset. The final testing could not be completed due to mismatching array structures of the trained model and the test set. Below are a list of differences in this code vs. the completed Colab notebook.
+
+   #### Differences in code:
+   * 20,000 vs all 400,000+ rows
+   * null values didn't include 'auctioneerID'. Once less column at the end 
+   * valid data set only goes up to 2011. Data split from before 2011 and after. opposed to 2012 in example
+   * max_samples = 500
+   * preprocessing data to prepare for test data Ln [83]:
+       * 'MachineHoursCurrentMeter_is_missing' from our train set
+       * 'auctioneerID_is_missing' from their test set (Daniel's notebook)
+       * manually adjusted df (instead of df_test) to have auctioneerID_is_missing column. Need to go back to see why this model was   missing this feature in the first place. Should have been caught during the preprocessing phase.
