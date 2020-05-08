@@ -24,6 +24,12 @@ For more on the evaluation of this project check: https://www.kaggle.com/c/blueb
 ## 4. Features
 Kaggle provides a data dictionary detailing all of the features of the dataset. You can view this data dictionary on Google Sheets: https://docs.google.com/spreadsheets/d/18ly-bLR8sbDJLITkWG7ozKm8l3RyieQ2Fpgix-beSYI/edit?usp=sharing
 
+
+
+--------------
+## File names
+
+
 ### Differences in code
 * 20,000 vs all 400,000+ rows
 * null values didn't include 'auctioneerID'. Once less column at the end 
